@@ -1,0 +1,24 @@
+.feedbacks {
+    background-color: #f3f3f3;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .feedbacks h2 {
+    font-size: 2rem;
+    color: #6A00B8;
+    margin-bottom: 30px;
+  }
+  
+  .feedbacks blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #444;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-left: 5px solid #16EA9E;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
