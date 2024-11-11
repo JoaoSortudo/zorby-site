@@ -1,15 +1,18 @@
 import React from 'react';
 import './InteractiveDisplay.css';
+//import appScreenMockup from '../images/iphonemockup.png'; ACERTAR O TAMANHO DO MOCKUP
+import appStoreBadge from '../images/appstore.svg';
+import googlePlayBadge from '../images/googleplay.png';
 
 function InteractiveDisplay() {
   return (
     <section className="interactive-display">
       <div className="mockup">
-        <img src="path/to/app-screen1.png" alt="App Screen" />
+        <img src="{appScreenMockup}" alt="App Screen" />
       </div>
       <div className="store-buttons">
-        <img src="path/to/app-store-badge.png" alt="App Store" />
-        <img src="path/to/google-play-badge.png" alt="Google Play" />
+        <img src={appStoreBadge} alt="App Store" />
+        <img src={googlePlayBadge} alt="Google Play" />
       </div>
     </section>
   );
