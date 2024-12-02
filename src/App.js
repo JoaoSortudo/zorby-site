@@ -1,18 +1,13 @@
-import React from 'react';
-import Header from './components/Header';
-import InteractiveDisplay from './components/InteractiveDisplay';
-import Benefits from './components/Benefits';
-import Feedbacks from './components/Feedbacks';
-import Footer from './components/Footer';
+import React from "react";
+import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
+import "./styles/App.css";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <InteractiveDisplay />
-      <Benefits />
-      <Feedbacks />
-      <Footer />
+    <div className="app">
+      <Navbar />
+      <HeroSection />
     </div>
   );
 }
